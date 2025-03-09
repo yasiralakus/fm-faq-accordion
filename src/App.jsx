@@ -22,12 +22,12 @@ export default function App() {
 
                 <main>
 
-                    <div className="faq-element">
+                    <div className="faq-element" onClick={() => (isClicked1 === true ? setIsClicked1(false) : setIsClicked1(true) )}>
 
                         <header>
                             <h3>What is Frontend Mentor, and how will it help me?</h3>
 
-                            <button onClick={() => (isClicked1 === true ? setIsClicked1(false) : setIsClicked1(true) )}>{isClicked1 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
+                            <button>{isClicked1 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
                         </header>
 
                         {isClicked1 && 
@@ -40,12 +40,12 @@ export default function App() {
 
                     </div>
 
-                    <div className="faq-element">
+                    <div className="faq-element"  onClick={() => (isClicked2 === true ? setIsClicked2(false) : setIsClicked2(true) )}>
 
                         <header>
                             <h3>Is Frontend Mentor free?</h3>
 
-                            <button onClick={() => (isClicked2 === true ? setIsClicked2(false) : setIsClicked2(true) )}>{isClicked2 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
+                            <button>{isClicked2 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
                         </header>
 
                         {isClicked2 && 
@@ -58,12 +58,12 @@ export default function App() {
 
                     </div>
 
-                    <div className="faq-element">
+                    <div className="faq-element"  onClick={() => (isClicked3 === true ? setIsClicked3(false) : setIsClicked3(true) )}>
 
                         <header>
                             <h3>Can I use Frontend Mentor projects in my portfolio?</h3>
 
-                            <button onClick={() => (isClicked3 === true ? setIsClicked3(false) : setIsClicked3(true) )}>{isClicked3 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
+                            <button>{isClicked3 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
                         </header>
 
                         {isClicked3 && 
@@ -76,12 +76,12 @@ export default function App() {
 
                     </div>
 
-                    <div className="faq-element">
+                    <div className="faq-element"  onClick={() => (isClicked4 === true ? setIsClicked4(false) : setIsClicked4(true) )}>
 
                         <header>
                             <h3>How can I get help if I'm stuck on a challenge?</h3>
 
-                            <button onClick={() => (isClicked4 === true ? setIsClicked4(false) : setIsClicked4(true) )}>{isClicked4 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
+                            <button>{isClicked4 ? <img src="./images/icon-minus.svg" alt="" /> : <img src="./images/icon-plus.svg" alt="" />}</button>
                         </header>
 
                         {isClicked4 && 
