@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function App() {
 
-    const [isClicked1, setIsClicked1] = useState(false);
+    const [isClicked1, setIsClicked1] = useState(true);
     const [isClicked2, setIsClicked2] = useState(false);
     const [isClicked3, setIsClicked3] = useState(false);
     const [isClicked4, setIsClicked4] = useState(false);
